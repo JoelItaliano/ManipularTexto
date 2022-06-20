@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(49, 13, 32);;
+    -webkit-text-stroke: 0.5px burlywood;
+}
+
+#text{
+    width: 600px;
+    height: 350px;
+
+    padding: 10px;
+
+
+    border-radius: 15px;
+    border: 3px solid burlywood;
+    font-size: 18px;
+}
+
+button{
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 3px solid rgb(222, 184, 135);
+    background-color: rgb(49, 13, 32);
+    
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+
+    transition: transform 1.5s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
